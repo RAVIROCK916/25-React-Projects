@@ -48,7 +48,6 @@ const P14 = () => {
 		}
 		lines.push(winningDiagonal1);
 		lines.push(winningDiagonal2);
-		console.log(lines);
 	}
 
 	const findWinner = (board, rows) => {
