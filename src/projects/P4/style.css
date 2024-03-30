@@ -1,0 +1,11 @@
+.slider-control {
+    @apply h-6 w-6 text-white cursor-pointer absolute transition-all z-[2];
+}
+
+.slider-left {
+    @apply bottom-2/4 left-0 translate-x-[50%] translate-y-[50%];
+}
+
+.slider-right {
+    @apply bottom-2/4 right-0 translate-x-[-50%] translate-y-[50%];
+}
