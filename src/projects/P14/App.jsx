@@ -4,7 +4,7 @@ import { Header } from "../components";
 import Cell from "./components/Cell";
 
 const P14 = () => {
-	const rows = 10,
+	const rows = 5,
 		lines = [];
 	const [board, setBoard] = React.useState(Array(rows * rows).fill(null));
 	const [xIsNext, setXIsNext] = React.useState(true);
